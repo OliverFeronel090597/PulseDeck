@@ -1,0 +1,16 @@
+red: Rule's Adding new class requirement's !!
+class name -> must not be available already in current dragables classes (class NewClass(inh..)) if available put v2 (class NewClassV2(inh..))
+functions:
+    def _properties 
+        variables
+            _colors[thiscolor, thatcolor, pointercolor] -> like this will be use in builder as color update
+            _datas[min, max, unit, datasource , etc] -> all need data for the dragables
+
+
+    def _updateValue's(data)
+        value=data -> the variable data usage 
+
+
+
+
+            

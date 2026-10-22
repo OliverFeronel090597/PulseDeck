@@ -1,0 +1,307 @@
+{
+  "last_project": "PROJECT 1",
+  "projects": {
+    "PROJECT 1": {
+      "name": "PROJECT 1",
+      "widgets": [
+        {
+          "type": "CircularDial",
+          "key": "SPEED",
+          "name": "SPEED",
+          "x": 1429,
+          "y": 544,
+          "w": 314,
+          "h": 336,
+          "unit": "KM/H",
+          "min": 0.0,
+          "max": 100.0,
+          "colors": {
+            "label_color": "#ff401a",
+            "unit_color": "#00aaff",
+            "pointer_color": "#e63946",
+            "face_color": "#00007f",
+            "face_color_outer": "#101014",
+            "ring_color": "#5a6473",
+            "value_arc_color": "#00aae6",
+            "tick_color": "#ffffff",
+            "tick_label_color": "#ffffff",
+            "center_value_color": "#00ff00"
+          }
+        },
+        {
+          "type": "ProgressBar",
+          "key": "E",
+          "name": "E",
+          "x": 1076,
+          "y": 104,
+          "w": 822,
+          "h": 100,
+          "unit": "EX",
+          "min": 0.0,
+          "max": 100.0,
+          "colors": {
+            "label_color": "#c8c8c8",
+            "color": "#118ab2",
+            "bg_color": "#1e1e24"
+          }
+        },
+        {
+          "type": "PlainLabel",
+          "key": "YY",
+          "name": "CCC",
+          "x": 2,
+          "y": 2,
+          "w": 298,
+          "h": 100,
+          "unit": "",
+          "min": 0.0,
+          "max": 100.0,
+          "colors": {
+            "color": "#06d6a0"
+          }
+        },
+        {
+          "type": "SevenSegmentDisplay",
+          "key": "NN",
+          "name": "NN",
+          "x": 2,
+          "y": 104,
+          "w": 298,
+          "h": 100,
+          "unit": "",
+          "min": 0.0,
+          "max": 100.0,
+          "colors": {
+            "label_color": "#c8c8c8",
+            "unit_color": "#06d6a0",
+            "bg_color": "#15151a",
+            "segment_color": "#00ff00"
+          }
+        },
+        {
+          "type": "LineGraph",
+          "key": "E,YYY,NN",
+          "name": "E",
+          "x": 2,
+          "y": 308,
+          "w": 1072,
+          "h": 576,
+          "unit": "",
+          "min": 0.0,
+          "max": 100.0,
+          "colors": {
+            "label_color": "#ffffff",
+            "bg_color": "#15151a",
+            "border_color": "#3f3f4e"
+          },
+          "series": [
+            {
+              "name": "E",
+              "color": "#ef476f"
+            },
+            {
+              "name": "YYY",
+              "color": "#06d6a0"
+            },
+            {
+              "name": "NN",
+              "color": "#118ab2"
+            }
+          ]
+        },
+        {
+          "type": "CylinderGauge",
+          "key": "VV",
+          "name": "VV",
+          "x": 684,
+          "y": 2,
+          "w": 120,
+          "h": 304,
+          "unit": "",
+          "min": 0.0,
+          "max": 100.0,
+          "colors": {
+            "label_color": "#3c4655",
+            "body_color": "#f0f4f8",
+            "body_color_bottom": "#e1e8f0",
+            "rim_color": "#f8fafc",
+            "outline_color": "#5a6473",
+            "liquid_color": "#118ab2",
+            "scale_color": "#5a6473"
+          }
+        },
+        {
+          "type": "DataInputText",
+          "key": "V",
+          "name": "V",
+          "x": 806,
+          "y": 2,
+          "w": 268,
+          "h": 115,
+          "unit": "",
+          "min": 0.0,
+          "max": 100.0,
+          "colors": {}
+        },
+        {
+          "type": "Thermometer",
+          "key": "C",
+          "name": "\"C",
+          "x": 806,
+          "y": 119,
+          "w": 268,
+          "h": 187,
+          "unit": "",
+          "min": 0.0,
+          "max": 100.0,
+          "colors": {
+            "label_color": "#ffffff",
+            "unit_color": "#00aaff",
+            "color": "#e63946",
+            "bg_color": "#2b2b36"
+          }
+        },
+        {
+          "type": "BarGauge",
+          "key": "G",
+          "name": "G",
+          "x": 1076,
+          "y": 2,
+          "w": 822,
+          "h": 100,
+          "unit": "",
+          "min": 0.0,
+          "max": 100.0,
+          "colors": {
+            "label_color": "#ffffff",
+            "color": "#06d6a0",
+            "bg_color": "#1e1e24",
+            "tick_color": "#555566",
+            "tick_label_color": "#aaaaaa"
+          }
+        },
+        {
+          "type": "CircularDial",
+          "key": "CC",
+          "name": "CC",
+          "x": 1076,
+          "y": 544,
+          "w": 351,
+          "h": 336,
+          "unit": "",
+          "min": 0.0,
+          "max": 100.0,
+          "colors": {
+            "label_color": "#ffffff",
+            "unit_color": "#788291",
+            "pointer_color": "#e63946",
+            "face_color": "#1e1e24",
+            "face_color_outer": "#101014",
+            "ring_color": "#5a6473",
+            "value_arc_color": "#00aae6",
+            "tick_color": "#ffffff",
+            "tick_label_color": "#ffffff",
+            "center_value_color": "#1e2837"
+          }
+        },
+        {
+          "type": "CircularDial",
+          "key": "KK",
+          "name": "KK",
+          "x": 1429,
+          "y": 206,
+          "w": 314,
+          "h": 336,
+          "unit": "",
+          "min": 0.0,
+          "max": 100.0,
+          "colors": {
+            "label_color": "#ffffff",
+            "unit_color": "#788291",
+            "pointer_color": "#e63946",
+            "face_color": "#1e1e24",
+            "face_color_outer": "#101014",
+            "ring_color": "#5a6473",
+            "value_arc_color": "#00aae6",
+            "tick_color": "#ffffff",
+            "tick_label_color": "#ffffff",
+            "center_value_color": "#1e2837"
+          }
+        },
+        {
+          "type": "CircularDial",
+          "key": "FF",
+          "name": "FF",
+          "x": 1076,
+          "y": 206,
+          "w": 351,
+          "h": 336,
+          "unit": "",
+          "min": 0.0,
+          "max": 100.0,
+          "colors": {
+            "label_color": "#ffffff",
+            "unit_color": "#788291",
+            "pointer_color": "#e63946",
+            "face_color": "#1e1e24",
+            "face_color_outer": "#101014",
+            "ring_color": "#5a6473",
+            "value_arc_color": "#00aae6",
+            "tick_color": "#ffffff",
+            "tick_label_color": "#ffffff",
+            "center_value_color": "#1e2837"
+          }
+        },
+        {
+          "type": "SevenSegmentDisplay",
+          "key": "NN",
+          "name": "NN",
+          "x": 2,
+          "y": 206,
+          "w": 298,
+          "h": 100,
+          "unit": "",
+          "min": 0.0,
+          "max": 100.0,
+          "colors": {
+            "label_color": "#c8c8c8",
+            "unit_color": "#06d6a0",
+            "bg_color": "#15151a",
+            "segment_color": "#00ff00"
+          }
+        }
+      ]
+    },
+    "PROJECT 2": {
+      "name": "PROJECT 2",
+      "widgets": [
+        {
+          "type": "DataInputWidget",
+          "key": "Y",
+          "name": "",
+          "x": 175,
+          "y": 278,
+          "w": 507,
+          "h": 124,
+          "unit": "",
+          "min": 0.0,
+          "max": 100.0,
+          "colors": {}
+        },
+        {
+          "type": "DataInputWidget",
+          "key": "Y",
+          "name": "",
+          "x": 217,
+          "y": 149,
+          "w": 496,
+          "h": 124,
+          "unit": "",
+          "min": 0.0,
+          "max": 100.0,
+          "colors": {}
+        }
+      ]
+    }
+  }
+}
